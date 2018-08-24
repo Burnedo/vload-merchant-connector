@@ -22,7 +22,7 @@ class ChargeData
                 'firstname' => CustomerData::FIRSTNAME,
                 'lastname' => CustomerData::LASTNAME,
                 'email' => CustomerData::EMAIL,
-                'ip_address' => CustomerData::IP_ADDRESS,
+                'ip' => CustomerData::IP_ADDRESS,
                 'address_city' => CustomerData::ADDRESS_CITY,
                 'address_country' => CustomerData::ADDRESS_COUNTRY,
                 'address_line1' => CustomerData::ADDRESS_LINE1,

@@ -120,7 +120,7 @@ class MerchantConnector
             $response['customer']['email'],
             $response['customer']['phone'],
             $address,
-            $response['customer']['ip_address']
+            $response['customer']['ip']
         );
         $charge = new Charge(
             $response['id'],

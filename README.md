@@ -68,7 +68,7 @@ $charge = $connector->retrieveCharge($chargeId);
 ```
 #### Parameters
 ##### chargeId (required)
-The ID of the charge to be retrieved, as returned from [charge voucher](#charge-voucher)
+The ID of the charge to be retrieved, as returned from [charge voucher](#charge-voucher).
 #### Returns
 Method returns \Vload\Common\VO\Charge object on success or throws [an exception](#exceptions) on failure.
 ## Exceptions
